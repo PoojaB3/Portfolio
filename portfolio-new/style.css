@@ -166,7 +166,7 @@ span{
     gap: 2rem;
 }
 .p-container .p-box{
-    flex: 1 1 45rem;
+    flex: 1 1 30rem;
     background: purple;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -186,56 +186,62 @@ span{
     margin: 1rem 0 3rem;
 }
 #s1:hover{
-    background: url(./images/dbms.png) no-repeat ;
+    background: url(./images/dbms.png) no-repeat center ;
     background-size: 60rem 45rem;
     transform: scale(1.1);
     /* color: purple; */
 }
 #s2:hover{
-    background: url(./images/w4.jpg) no-repeat ;
+    background: url(./images/w4.jpg) no-repeat center;
     background-size: 60rem 45rem;
     transform: scale(1.1);
 }
 #s3:hover{
-    background: url(./images/v1.jpg) no-repeat ;
+    background: url(./images/v1.jpg) no-repeat center;
     background-size: 60rem 45rem;
     transform: scale(1.1);
     color: black;
 }
 #s4:hover{
-    background: url(./images/g1.jpg) no-repeat ;
+    background: url(./images/g1.jpg) no-repeat center ;
     background-size: 60rem 45rem;
     transform: scale(1.1);
 }
 #s5:hover{
-    background: url(./images/bid.jpg) no-repeat ;
+    background: url(./images/bid.jpg) no-repeat center ;
     background-size: 60rem 45rem;
     transform: scale(1.1);
 }
 #s6:hover{
-    background: url(./images/pp.jpg) no-repeat ;
+    background: url(./images/pp.jpg) no-repeat center;
     background-size: 60rem 45rem;
     transform: scale(1.1);
     color: black;
 }
 #s7:hover{
-    background: url(./images/food.jpg) no-repeat ;
+    background: url(./images/food.jpg) no-repeat center;
     background-size: 60rem 45rem;
     transform: scale(1.1);
     color: black;
 }
 #s8:hover{
-    background: url(./images/poll.jpg) no-repeat ;
+    background: url(./images/poll.jpg) no-repeat center ;
     background-size: 60rem 45rem;
     transform: scale(1.1);
     color: black;
+}
+#s9:hover{
+    background: url(./images/cry.jpg) no-repeat center ;
+    background-size: 60rem 45rem;
+    transform: scale(1.1);
+    /* color: black; */
 }
 .p2{
     background: var(--second-bg-color);
 }
 .p2-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     align-items: center;
     gap: 2.5rem;
 }
